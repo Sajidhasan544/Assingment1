@@ -6,6 +6,7 @@
     font-family: "Work Sans", serif;
 }
 
+
 /* nav style  */
 nav {
     color: white;
@@ -37,6 +38,9 @@ nav button{
     color:  rgb(0, 106, 80);
     padding: 10px 20px;
     border-radius: 5px;
+}
+nav button:hover{
+    background-color: orangered;   
 }
 
 
@@ -83,6 +87,9 @@ nav button{
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
+}
+.idea button:hover{
+    background-color: orangered;
 }
 
 /* section2 */
@@ -188,7 +195,7 @@ nav button{
     margin-bottom: 24px;
 }
 
-.cards button {
+.btn0 {
     padding: 11px 20px;
     border-radius: 8px;
     border: none;
@@ -197,6 +204,37 @@ nav button{
     font-weight: 700;
     margin-left: 32px;
 }
+
+.btn0:hover {
+    background-color: orangered;
+}
+
+.btn1{
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin-left: 32px;
+    background-color: rgb(9,161,92);
+}
+.btn1:hover {
+    background-color: orangered;
+}
+
+.btn2{
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin-left: 32px;
+    background-color:rgb(255,194,57);
+}
+.btn2:hover{
+    background-color: orangered;
+}
+
 .summary{
     border-radius: 16px;
     border: 1px solid gray;
