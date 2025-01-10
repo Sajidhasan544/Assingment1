@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", serif;
+}
+
+/* nav style  */
+nav {
+    color: white;
+    width: 1280px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 31px 160px 31px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navb{
+    font-family: "Work Sans", serif;
+    width: 250px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+nav button{
+    font-family: "Work Sans", serif;
+    background-color: white;
+    border: 1px solid rgb(0, 106, 80);
+    color:  rgb(0, 106, 80);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+/* section1 */
+.section1{
+    width: 1280px;
+    height: 560px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.section1 img{
+    margin-right: 100px;
+    width: 474.03px;
+    height: 400px;
+}
+.idea{
+    margin-left: 100px;
+    width: 610px;
+    height: 325px;
+}
+.idea p{
+    font-size: 24px;
+    color: #0E0E0E;
+    margin-bottom: 16px;
+}
+.idea h1{
+    font-size: 51px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.idea button{
+    width: 287px;
+    height: 56px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+    padding: 17px 34px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* section2 */
+
+.section2 {
+    width: 1280px;
+    height: 324px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container2 h1{
+    margin-bottom: 32px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.card{
+    width: 302px;
+    height: 244px;
+    background-color: rgb(255, 255, 255);
+    border: 1px  solid rgba(14,14,14,0.15);
+    border-radius: 10px;
+}
+.card img{
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+.card h2{
+    margin-left: 24px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.card p{
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #0E0E0E;
+}
+.sec2cards{
+    display: flex;
+    gap: 20px;
+}
+
+/* section3 */
+
+.container3 h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contp {
+    margin-top: 24px;
+    font-size: 16px;
+    color: #0E0E0E;
+}
+
+.section3 {
+    width: 1280px;
+    height: 765px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec3cards {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    gap: 24px;
+
+}
+
+.cards {
+    border-radius: 16px;
+    width: 410.67px;
+    height: 352px;
+    margin-bottom: 32px;
+}
+
+.cards img {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 24px;
+    width: 62px;
+    height: 62px;
+}
+
+.cards h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 32px;
+    margin-bottom: 12px;
+}
+
+.cards p {
+    margin-left: 32px;
+    margin-right: 32px;
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+
+.cards button {
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #5490F5;
+    color: white;
+    font-weight: 700;
+    margin-left: 32px;
+}
+.summary{
+    border-radius: 16px;
+    border: 1px solid gray;
+    width: 1280px;
+    height: 256px;
+}
+.sum{
+    margin-top: 48px;
+    margin-left: 34px;
+    color: white;
+    background:url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: left  top;
+    border: 1px solid white;
+}
+.pra{
+    color: #0E0E0E;
+    margin-top: 26px;
+}
+.summary h1{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 34px;
+    color: #0E0E0E;
+    margin-bottom: 4px;
+}
+.summary p{
+    margin-left: 34px;
+    font-size: 16px;
+    color: #0E0E0E;
+} 
